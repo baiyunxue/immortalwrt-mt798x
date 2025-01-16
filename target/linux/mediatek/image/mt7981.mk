@@ -456,7 +456,7 @@ define Device/cmcc_rax3000m
 endef
 TARGET_DEVICES += cmcc_rax3000m
 
-define Device/cmcc_rax3000m_256m
+define Device/cmcc_rax3000m-256m
   DEVICE_VENDOR := CMCC
   DEVICE_MODEL := RAX3000M NAND 256M
   DEVICE_DTS := mt7981-cmcc-rax3000m-256m
@@ -472,7 +472,7 @@ define Device/cmcc_rax3000m_256m
   IMAGE/factory.bin := append-ubi | check-size $$$$(IMAGE_SIZE)
   IMAGE/sysupgrade.bin := sysupgrade-tar | append-metadata
 endef
-TARGET_DEVICES += cmcc_rax3000m_256m
+TARGET_DEVICES += cmcc_rax3000m-256m
 
 define Device/cmcc_rax3000m-emmc
   DEVICE_VENDOR := CMCC
