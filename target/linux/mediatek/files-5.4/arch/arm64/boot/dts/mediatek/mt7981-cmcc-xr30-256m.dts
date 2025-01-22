@@ -1,8 +1,8 @@
 /dts-v1/;
-#include "mt7981-cmcc-xr30-256m.dtsi"
+#include "mt7981-cmcc-xr30.dtsi"
 
 / {
-	model = "CMCC XR30";
+	model = "CMCC XR30-256m";
 	compatible = "cmcc,xr30", "mediatek,mt7981";
 
 	chosen {
